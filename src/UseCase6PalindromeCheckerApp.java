@@ -1,16 +1,22 @@
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
-//Use stack to reverse characters and validate palindrome.
-public class UseCase5PalindromeCheckerApp{
+//Demonstrate FIFO vs LIFO using Queue and Stack.
+public class UseCase6PalindromeCheckerApp{
     public static void main(String[] args){
-        String word="noon";
+        String word="civic";
         Stack<Character> stack=new Stack<>();
+        Queue<Character> queue=new LinkedList<>();
         for(char c:word.toCharArray()){
             stack.push(c);
+            queue.add(c);
         }
         boolean palindrome=true;
-        for(char c:word.toCharArray()){
-            if(stack.pop()!=c){
+        while(!queue.isEmpty()){
+            char fromQueue=queue.remove();
+            char fromStack=stack.pop();
+            if (fromQueue!=fromStack) {
                 palindrome=false;
                 break;
             }
