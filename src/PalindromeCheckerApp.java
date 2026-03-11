@@ -1,5 +1,5 @@
 //Ignore spaces and case while checking a palindrome.
-public class UseCase10PalindromeCheckerApp{
+public class PalindromeCheckerApp{
     public static void main(String[] args){
         String word="A man a plan a canal Panama";
         String normalized=word.replaceAll("\\s+", "").toLowerCase();
