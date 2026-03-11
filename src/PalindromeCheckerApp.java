@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 
 //Check palindrome using singly linked list.
-public class UseCase8PalindromeCheckerApp{
+public class PalindromeCheckerApp{
     public static void main(String[] args){
         String word="level";
         LinkedList<Character> list=new LinkedList<>();
