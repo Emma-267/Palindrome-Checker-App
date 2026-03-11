@@ -1,5 +1,5 @@
 //Check whether a string is a palindrome by reversing it.
-public class UseCase3PalindromeCheckerApp{
+public class PalindromeCheckerApp{
     public static void main(String[] args){
         String word="madam";
         String reversed="";
