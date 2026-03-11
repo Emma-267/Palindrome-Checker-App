@@ -2,7 +2,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 //Use Deque to compare front and rear elements.
-public class UseCase7PalindromeCheckerApp{
+public class PalindromeCheckerApp{
     public static void main(String[] args){
         String word="refer";
         Deque<Character> deque=new ArrayDeque<>();
