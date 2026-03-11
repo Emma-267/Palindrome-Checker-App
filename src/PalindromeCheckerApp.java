@@ -1,5 +1,5 @@
 //Convert string to character array and compare characters.
-public class UseCase4PalindromeCheckerApp{
+public class PalindromeCheckerApp{
     public static void main(String[] args){
         String word="radar";
         char[] chars=word.toCharArray();
