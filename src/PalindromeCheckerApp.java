@@ -1,5 +1,5 @@
 //Check palindrome using recursion.
-public class UseCase9PalindromeCheckerApp{
+public class PalindromeCheckerApp{
     private static boolean check(String s, int start, int end){
         if(start>=end){
             return true;
