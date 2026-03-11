@@ -13,7 +13,7 @@ class PalindromeService{
         return true;
     }
 }
-public class UseCase11PalindromeCheckerApp{
+public class PalindromeCheckerApp{
     public static void main(String[] args){
         String word="racecar";
         boolean palindrome=PalindromeService.checkPalindrome(word);
