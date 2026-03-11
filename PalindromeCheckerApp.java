@@ -54,7 +54,7 @@ class LinkedListStrategy implements PalindromeStrategy{
         return true;
     }
 }
-public class UseCase13PalindromeCheckerApp{
+public class PalindromeCheckerApp{
     public static void main(String[] args){
         StackStrategy stack=new StackStrategy();
         DequeStrategy deque=new DequeStrategy();
