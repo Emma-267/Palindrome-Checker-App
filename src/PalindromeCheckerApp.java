@@ -1,7 +1,7 @@
 import java.util.Stack;
 
 //Use stack to reverse characters and validate palindrome.
-public class UseCase5PalindromeCheckerApp{
+public class PalindromeCheckerApp{
     public static void main(String[] args){
         String word="noon";
         Stack<Character> stack=new Stack<>();
