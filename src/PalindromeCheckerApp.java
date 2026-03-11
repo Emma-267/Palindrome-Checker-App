@@ -3,7 +3,7 @@ import java.util.Queue;
 import java.util.Stack;
 
 //Demonstrate FIFO vs LIFO using Queue and Stack.
-public class UseCase6PalindromeCheckerApp{
+public class PalindromeCheckerApp{
     public static void main(String[] args){
         String word="civic";
         Stack<Character> stack=new Stack<>();
