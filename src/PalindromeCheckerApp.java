@@ -30,7 +30,7 @@ class DequeStrategy implements PalindromeStrategy{
         return true;
     }
 }
-public class UseCase12PalindromeCheckerApp{
+public class PalindromeCheckerApp{
     public static void main(String[] args){
         StackStrategy stack=new StackStrategy();
         DequeStrategy deque=new DequeStrategy();
